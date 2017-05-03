@@ -13,6 +13,7 @@
 		65624CD51EBA309A008DBBAA /* Pokemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65624CD31EBA309A008DBBAA /* Pokemon.xcdatamodeld */; };
 		65624CD71EBA309A008DBBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65624CD61EBA309A008DBBAA /* Assets.xcassets */; };
 		65624CDA1EBA309A008DBBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65624CD81EBA309A008DBBAA /* LaunchScreen.storyboard */; };
+		65624CE31EBA380A008DBBAA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65624CE21EBA380A008DBBAA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		65624CD61EBA309A008DBBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65624CD91EBA309A008DBBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65624CDB1EBA309A008DBBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65624CE21EBA380A008DBBAA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65624CE31EBA380A008DBBAA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				65624CCB1EBA309A008DBBAA /* Pokemon */,
 				65624CCA1EBA309A008DBBAA /* Products */,
+				65624CE11EBA380A008DBBAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				65624CD31EBA309A008DBBAA /* Pokemon.xcdatamodeld */,
 			);
 			path = Pokemon;
+			sourceTree = "<group>";
+		};
+		65624CE11EBA380A008DBBAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65624CE21EBA380A008DBBAA /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
