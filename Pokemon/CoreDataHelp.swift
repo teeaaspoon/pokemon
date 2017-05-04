@@ -13,7 +13,7 @@ import CoreData
 func addAllPokemon() {
     
     createPokemon(name: "Abra", imageName: "abra")
-    createPokemon(name: "Bulbasaur", imageName: "bulbasaur")
+    createPokemon(name: "Bulbasaur", imageName: "bullbasaur")
     createPokemon(name: "Caterpie", imageName: "caterpie")
     createPokemon(name: "Charmander", imageName: "charmander")
     createPokemon(name: "Dratini", imageName: "dratini")
